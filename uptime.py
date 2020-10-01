@@ -3,7 +3,10 @@ import os
 import sys
 
 TO_MONITOR = [
-    ('network', 'MyGateway', '10.10.10.1')
+    ('network', 'MyGateway', '10.10.10.1'),
+    ('network', 'MySwitch', '10.10.10.2'),
+
+    ('server', 'FancyServer', '10.10.10.50')
 ]
 
 
